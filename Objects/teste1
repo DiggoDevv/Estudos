@@ -1,0 +1,15 @@
+// const produto1 = "computador"
+// const produto2 = "TV"
+// const preco1 = 2100.50
+// const preco2 = 1830.00
+// const idade = 30
+// const genero = "F"
+//  const cod = 5291
+// console.log("O produto", produto1, "custa", preco1 )
+// console.log("O produto", produto2, "custa", preco2 )
+// console.log("o codigo é", cod)
+// console.log("O genero", genero, "e sua idade é de:", idade)
+
+const cor = ["azul", "preto", "vermelho", "verde"]
+console.log(cor[0])
+

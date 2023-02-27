@@ -1,0 +1,15 @@
+// toUpperCase() e toLowerCase() deixar o texto todo em letras minúsculas (lower case) ou todo em maiúsculas (upper case).
+// ex: const palavra="alura";console.log(palavra.toUpperCase()) //ALURAconsole.log(palavra.toLowerCase()) //alura
+
+// código: substr() permite que façamos a extração de parte de uma string:
+// ex: let frase= "Mergulhando em tecnologia."console.log(frase.substr(0,11)) // Mergulhando
+
+//replace() possibilita de substituir parte de uma string por outra. Essa função recebe como parâmetros duas informações: a string que você quer substituir e a string que será colocada no lugar.
+// ex: let nome = "André";let comunicacao = " Olá, sr. nomeusurario, informamos que a partir da presente data o senhor tem 50% de desconto em nossa loja.";console.log(comunicacao.replace("nomeusurario",nome));
+
+//split() = serve para quebrar uma string com base em caracteres separadores que vamos informar para o método como parâmetro.
+//ex: let linguagens = "JavaScript;Java;C#;PHP;Python;Go;Vb;SQL;C;C++";let arrayLinguagens = linguagens.split(";");console.log(arrayLinguagens)
+
+//O trim() remove os espaços em branco no início ou fim de uma string.
+//Se em alguma situação precisarmos fazer uma verificação de que o usuário não digitou o login com espaços, faremos;
+//ex: let login = "   andre@emailteste.com      ";let loginSemEspaco = login.trim();console.log(loginSemEspaco); //andre@emailteste.com
